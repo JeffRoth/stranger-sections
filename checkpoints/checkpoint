@@ -1,2 +1,2 @@
-model_checkpoint_path: "seg_model"
-all_model_checkpoint_paths: "seg_model"
+model_checkpoint_path: "seg_model_20231009"
+all_model_checkpoint_paths: "seg_model_20231009"
