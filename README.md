@@ -33,3 +33,11 @@ The issue is that the out-of-the-box segmenteverygrain model had poor performanc
 ![Model Performance - UV Light Example](example3.png)
 
 ![Model Performance - Plain Light Example](example4.png)
+
+# Running the Code
+
+The prediction code is in the jupiter notebook named *ara_starter_notebook_v1.ipynb*. A *requirements.txt* file is included for setting up your environment. Starting at the section labelled **Code**, there are two cells that must be run.  The first one downloads the model checkpoint, and must only be run once. The second cell will peform the labeling predictions for all of the images. Place the images to be labelled in a folder in your project directory named:
+
+*images/input/*
+
+The notebook will create a folder in the project named *output/* and will save the output masks there as numpy arrays in *.npy* format.
