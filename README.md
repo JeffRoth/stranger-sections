@@ -6,11 +6,13 @@ The challenge is to provide a model which can accurately segment blobs on 1000 u
 
 # Data
 
-As highlighted above, the dataset consists of 1000 unlabeled thin section images. Some of these images will will be plain light images and others will be UV light. There will be various blobs on on each thin section image that need to be segmented. Below are 3 examples showing how one might segment the images. The examples show the three types of blobs found on the images. As you'll see, there are potentially more segments on the image than what is currently provided.
+As mentioned above, the dataset consists of 1000 unlabeled thin section images. Some of these images are be plain light images and others are UV light. There are various blobs on on each thin section image that need to be segmented. Below are 3 examples showing how one might segment the images. The examples show the three types of blobs found on the images. As you'll see, there are potentially more segments on the image than what is currently provided.
 
-![UV Light Sample image](sample1.png)
+![UV Light Sample image 1](sample1.png)
 
-![Plain Light Sample image](sample2.png)
+![Plain Light Sample image 2](sample2.png)
+
+![Plain Light Samle image 3](sample3.png)
 
 # Approach
 
