@@ -40,4 +40,23 @@ The prediction code is in the jupiter notebook named *ara_starter_notebook_v1.ip
 
 *images/input/*
 
-The notebook will create a folder in the project named *output/* and will save the output masks there as numpy arrays in *.npy* format.
+The notebook will create a folder in the project named *output/* and will save the output masks there as numpy arrays in *.npy* format. Also saved in this folder will be the enhanced thin section images and (optionally) the image masks in .png format
+
+# Requirements
+
+The following libraries are required for this code to work:
+
+* numpy
+* matplotlib
+* scipy
+* pandas
+* pillow
+* scikit-image
+* opencv-python
+* networkx
+* rasterio
+* shapely
+* tensorflow
+* pytorch
+* tqdm
+* segmenteverygrain
